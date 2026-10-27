@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <h2>Feedback Form</h2>
+<form action="/submit_feedback" method="post">
+    Name: <br>
+    <input type="text" name="name" required>
+    <br><br>
+    E-mail: <br>
+    <input type="text" name="Email" >
+    <br> <br>
+    Rate our service: <br>
+    <input type="radio" name="rate" value="Excellent">Excellent
+     <input type="radio" name="rate" value="good">Good
+      <input type="radio" name="rate" value="avarage">Avarage
+       <input type="radio" name="rate" value="poor">Poor
+       <br> <br>
+       Your Feedback: <br>
+       <textarea name="Feedback" rows="5" cols="30"></textarea>
+       <br> <br>
+       <input type="submit" value="submit">
+       <input type="reset" value="reset">
+</form>
+    </body>
+</html>
